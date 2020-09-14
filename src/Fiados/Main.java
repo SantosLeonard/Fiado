@@ -1,8 +1,7 @@
 package Fiados;
 
-import javax.sound.midi.Soundbank;
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Scanner;
+import java.util.ArrayList;
 class Main {
 
     public static void main(String[] args) {
@@ -18,6 +17,8 @@ class Main {
             System.out.println("Informe o valor: ");
             int value = Integer.valueOf(scanner.nextLine());
 
+
+//testa ai pls
             if (value > 0){
                 fiados.add(value);
             }else{
